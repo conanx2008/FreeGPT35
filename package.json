@@ -1,7 +1,14 @@
 {
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "pm2 restart ecosystem.config.js --env production"
+  },
   "dependencies": {
     "axios": "^1.6.8",
     "body-parser": "^1.20.2",
     "express": "^4.19.2"
+  },
+  "volta": {
+    "node": "20.11.0"
   }
 }
